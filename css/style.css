@@ -1,0 +1,122 @@
+@charset "utf-8";
+
+body {
+    background: lightgreen;
+}
+
+#container {
+    width: 1000px;
+    height: auto;
+    margin: 0 auto;
+}
+
+header {
+    width: 1000px;
+    height: 500px;
+    background: url('../img/woddPlank.jpg');
+}
+
+header img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav ul li {
+    float: right;
+    list-style: none;
+    padding-right: 30px;
+}
+
+a {
+    text-decoration: none;
+}
+
+section {
+    width: 1000px;
+    height: auto;
+    display: block;
+}
+
+.section2 {
+    width: 1000px;
+    height: auto;
+    display: block;
+}
+
+.droite {
+    width: 650px;
+    height: 400px;
+    float: right;
+}
+
+.gauche {
+    width: 350px;
+    height: 330px;
+    float: left;
+    background: url('../img/pattern.jpg');
+    text-align: center;
+    display: block;
+}
+
+.droite2 {
+    width: 350px;
+    height: 500px;
+    line-height: 5px;
+    float: right;
+    text-align: center;
+    background: url('../img/pattern.jpg');
+}
+
+.gauche2 {
+    width: 650px;
+    height: 430px;
+    float: left;
+    display: block;
+}
+
+.clear {
+    clear: both;
+}
+
+/* .clearfix {
+    overflow: auto;
+} */
+
+footer {
+    width: 960px;
+    height: 270px;
+    background: url('../img/pattern.jpg');
+    display: block;
+    margin-top: -10px;
+    padding: 20px;
+}
+
+.centre_lineheight {
+    height: 400px;
+    line-height: 30px;
+}
+
+.centre_lineheight2 {
+    width: 350px;
+    height: 500px;
+    line-height: 50px;
+    text-align: center;
+}
+
+.centre_lineheight3 {
+    width: 960px;
+    height: 270px;
+    line-height: 50px;
+    text-align: center;
+}
+.adressegauche {
+    float: left;
+    line-height: 10px;
+}
+
+
+.clearright {
+    clear: right;
+}
+
